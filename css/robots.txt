@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cl-1310.github.io/LaPanthere/index.html/sitemap.xml
