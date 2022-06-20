@@ -7,6 +7,55 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.nav > li a:hover, .nav > li a:focus {
+    text-decoration: underline;
+}
+
+.col-sm-12 button {
+    border: solid 1px #F3976C;
+    background-color: #F3976C;
+    border-radius: 28px;
+    width: 220px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.col-sm-12 button:hover{
+    background-color: #c27956;
+}
+
+.col-sm-12 a {
+    font-weight: bold;
+    color: white;
+}
+
+.icon-md {
+    color: rgba(255,255,255,.6);
+}
+
+.text-center p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.quote-author {
+    font-weight: lighter;
+}
+
+#bloc-6 p {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.Contact h2 {
+    font-size: 34px;
+}
+
+.contact-design  {
+    color: white;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -131,8 +180,7 @@ a:hover {
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
+.d-bloc h6 a,{
     color: rgba(255, 255, 255, .6);
 }
 
@@ -149,7 +197,7 @@ a:hover {
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
-.d-bloc p a:hover {
+.d-bloc p a:hover{
     color: rgba(255, 255, 255, 1);
 }
 
@@ -651,7 +699,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    font-size:medium;
+    color: #575757;
 }
 
 .container {
@@ -676,9 +725,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -704,6 +750,10 @@ p {
     margin: auto auto auto auto;
 }
 
+h1 {
+    color: white;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -720,10 +770,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
 }
 
 h4 {
