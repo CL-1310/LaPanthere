@@ -11,7 +11,7 @@ body {
     text-decoration: underline;
 }
 
-form {
+.aspirations-cta {
     display: flex;
     justify-content: center;
 }
