@@ -11,6 +11,11 @@ body {
     text-decoration: underline;
 }
 
+form {
+    display: flex;
+    justify-content: center;
+}
+
 .col-sm-12 button {
     border: solid 1px #F3976C;
     background-color: #F3976C;
@@ -18,15 +23,13 @@ body {
     width: 220px;
     height: 45px;
     cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .col-sm-12 button:hover{
     background-color: #c27956;
-}
-
-.col-sm-12 a {
-    font-weight: bold;
-    color: white;
 }
 
 .icon-md {
@@ -52,7 +55,7 @@ body {
     font-size: 34px;
 }
 
-.contact-design  {
+.contact-design h1{
     color: white;
 }
 
@@ -180,7 +183,7 @@ a:hover {
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
-.d-bloc h6 a,{
+.d-bloc h6 a {
     color: rgba(255, 255, 255, .6);
 }
 
